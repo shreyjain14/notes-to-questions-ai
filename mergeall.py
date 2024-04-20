@@ -5,6 +5,8 @@ OUT_FOLDER = 'G:\\My Drive\\Study\\UNIX'
 
 files = [f for f in os.listdir(IN_FOLDER)]
 
+files.sort()
+
 questions = ''
 
 for file in files:
